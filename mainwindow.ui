@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>533</width>
+    <height>195</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="turnOnButtonclicked">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Turn On</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="identifyButtonClicked">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Identify</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sinButtonClicked">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Generate</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditPhase">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>40</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>50</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Phase</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditFrequency">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Frequency</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>80</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Offset</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditOffset">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>80</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>110</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Voltage</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditVoltage">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>110</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="turnOffButtonClicked">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Turn off</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>10</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hz</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>40</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Degrees</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>80</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Volts</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>110</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Volts</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>40</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Sin wave</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Square wave</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ramp wave</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pulse</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>533</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>turnOnButtonclicked</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>turnOnButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>68</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>126</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>identifyButtonClicked</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>identifyButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>44</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>66</x>
+     <y>218</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sinButtonClicked</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>sinButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>28</x>
+     <y>146</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>34</x>
+     <y>195</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>turnOffButtonClicked</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>turnOffButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>59</x>
+     <y>210</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>215</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>turnOnButtonClicked()</slot>
+  <slot>identifyButtonClicked()</slot>
+  <slot>sinButtonClicked()</slot>
+  <slot>turnOffButtonClicked()</slot>
+ </slots>
+</ui>
